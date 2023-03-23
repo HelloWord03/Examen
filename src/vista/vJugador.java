@@ -198,7 +198,7 @@ public class vJugador extends JFrame {
 					
 					if(Datos.insertarJugador(Jugador1)) {
 						actualizarTabla();
-						Limpiar();
+//						Limpiar();
 						JOptionPane.showMessageDialog(null, "Se guardaron los datos correctamente!!!");
 					} else {
 						JOptionPane.showMessageDialog(null,"ERROR");
